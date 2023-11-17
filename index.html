@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop Hero</title>
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <section class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="./images/Group 2.png" alt="ShopHero logo" class="logo img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item active pr-3">
+            <a class="nav-link text-white" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item pr-3">
+            <a class="nav-link text-white" href="#about">About</a>
+          </li>
+          <li class="nav-item pr-3">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item pr-3">
+            <a class="nav-link text-white" href="#">
+              <i class="fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i>
+            </a>
+          </li>
+          <li class="nav-item pr-3">
+            <a class="nav-link text-white" href="#">
+              <i class="fa-solid fa-user fa-xl" style="color: #ffffff;"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <!-- Banner -->
+  <section id="home" class="home overflow-hidden">
+    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner"> <!--Banner - 1-->
+        <div class="carousel-item active">
+          <div class="home-banner home-banner-1 d-flex align-items-center justify-content-lg-around flex-column flex-lg-row">
+            <div class="home-banner-text">
+              <h1 class="banner-head">IPhone <span>15 Pro</span></h1>
+              <p>Created to change everything for the better. For everyone.</p>
+              <a href="#" class="btn btn-primary text-uppercase mt-4">Shop Now</a>
+            </div>
+            <img class="img-fluid" src="./images/Iphone Image.png" alt="">
+          </div>
+        </div>
+
+        <div class="carousel-item"> <!--Banner - 2-->
+          <div class="home-banner home-banner-2 d-flex align-items-center justify-content-lg-around flex-column flex-lg-row">
+            <div class="home-banner-text">
+              <h1 class="banner-head">IPhone <span>14 Pro</span></h1>
+              <p>Created to change everything for the better. For everyone.</p>
+              <a href="#" class="btn btn-primary text-uppercase mt-4">Shop Now</a>
+            </div>
+            <img class="img-fluid" src="./images/Iphone Image.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- Cards -->
+  <section class="d-flex">
+    <div class="cards">
+      <div class="card card-1"> <!--card-1 start-->
+        <div class="row g-0">
+          <div class="col-6">
+            <img src="./images/ipad.png" alt="" class="card-img img-fluid rounded-start">
+          </div>
+          <div class="col-6">
+            <div class="card-body">
+              <div class="h-100">
+                <h3 class="card-title">iPad 9</h3>
+                <p class="card-text">
+                  iPad (9th gen.) has the powerful A13 Bionic chip, a 12MP Ultra Wide front camera with Center Stage, True
+                  Tone display
+                  technology, and 64GB storage.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!--card-1 end-->
+      <div class="card card-2"> <!--card-2 start-->
+        <div class="row g-0">
+          <div class="col-6">
+            <img src="./images/headphoe.png" alt="" class="card-img img-fluid rounded-start">
+          </div>
+          <div class="col-6">
+            <div class="card-body">
+              <div class="h-100">
+                <h3 class="card-title">iPad 9</h3>
+                <p class="card-text">
+                  iPad (9th gen.) has the powerful A13 Bionic chip, a 12MP Ultra Wide front camera with Center Stage, True
+                  Tone display
+                  technology, and 64GB storage.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!--card-2 end-->
+    </div>
+    <div class="card card-3"> <!--card-3 start-->
+      <div class="row g-0">
+  
+        <div class="col-6">
+          <div class="card-body">
+            <div class="h-100">
+              <h3 class="card-title">iPad 9</h3>
+              <p class="card-text">
+                iPad (9th gen.) has the powerful A13 Bionic chip, a 12MP Ultra Wide front camera with Center Stage, True
+                Tone display
+                technology, and 64GB storage.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <img src="./images/MackbookPro.png" alt="" class="card-img img-fluid rounded-start">
+        </div>
+      </div>
+    </div> <!--card-3 end-->
+  </section>
+
+  <!-- Category -->
+  <section id="category" class="container mt-5 mb-5">
+    <div class="d-flex justify-content-between">
+      <h3>Browse By Category</h3>
+      <h3> &lt;&gt;</h3>
+    </div>
+
+    <div class="row"> 
+      <div class="col-lg-2 col-sm-6 cat-item mt-3 "> <!--Start-->
+        <div class="cat-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="currentColor" class="bi bi-phone"
+            viewBox="0 0 16 16">
+            <path
+              d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+          </svg>
+        </div>
+        <h4 class="cat-title">Phones</h4>
+      </div> <!--end-->
+      <div class="col-lg-2 col-sm-6 cat-item mt-3"> <!--Start-->
+        <div class="cat-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="currentColor" class="bi bi-smartwatch"
+            viewBox="0 0 16 16">
+            <path d="M9 5a.5.5 0 0 0-1 0v3H6a.5.5 0 0 0 0 1h2.5a.5.5 0 0 0 .5-.5V5z" />
+            <path
+              d="M4 1.667v.383A2.5 2.5 0 0 0 2 4.5v7a2.5 2.5 0 0 0 2 2.45v.383C4 15.253 4.746 16 5.667 16h4.666c.92 0 1.667-.746 1.667-1.667v-.383a2.5 2.5 0 0 0 2-2.45V8h.5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5H14v-.5a2.5 2.5 0 0 0-2-2.45v-.383C12 .747 11.254 0 10.333 0H5.667C4.747 0 4 .746 4 1.667zM4.5 3h7A1.5 1.5 0 0 1 13 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 11.5v-7A1.5 1.5 0 0 1 4.5 3z" />
+          </svg>
+        </div>
+        <h4 class="cat-title">Smart Watch</h4>
+      </div> <!--end-->
+      <div class="col-lg-2 col-sm-6 cat-item mt-3"> <!--Start-->
+        <div class="cat-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="currentColor" class="bi bi-camera"
+            viewBox="0 0 16 16">
+            <path
+              d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+            <path
+              d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+          </svg>
+        </div>
+        <h4 class="cat-title">Camera</h4>
+      </div> <!--end-->
+      <div class="col-lg-2 col-sm-6 cat-item mt-3"> <!--Start-->
+        <div class="cat-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="currentColor" class="bi bi-headset"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
+          </svg>
+        </div>
+        <h4 class="cat-title">Headset</h4>
+      </div> <!--end-->
+      <div class="col-lg-2 col-sm-6 cat-item mt-3"> <!--Start-->
+        <div class="cat-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="currentColor" class="bi bi-laptop"
+            viewBox="0 0 16 16">
+            <path
+              d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
+          </svg>
+        </div>
+        <h4 class="cat-title">Laptops</h4>
+      </div> <!--end-->
+      
+    </div> 
+      
+  </section>
+
+  <!-- New Arrival -->
+  <section class="newarrival mb-5">
+    <div class="arrival-title mb-5">
+      <p class="active d-inline">New Arrival</p>
+      <p class="d-inline pl-lg-5">Bestseller</p>
+      <p class="d-inline pl-lg-5">Featured</p>
+    </div>
+
+    <div class="row">
+      <div class="card col-lg-2 col-sm-5 mr-lg-5  " style="width: 18rem;">
+        <img class="card-img-top" src="./images/iphone 14.png" alt="Card image cap">
+        <div class="card-body">
+          
+          <p class="card-text">Apple iphone 14 Pro Max <br> 128GB Dark
+          </p>
+          <h5 class="card-title">900</h5>
+          <a href="#" class="btn btn-dark">Buy Now</a>
+        </div>
+      </div>
+      <div class="card col-lg-2 col-sm-5 mr-lg-5 ml-lg-5" style="width: 18rem;">
+        <img class="card-img-top" src="./images/Iphone 14 pro 1-3.png" alt="Card image cap">
+        <div class="card-body">
+          
+          <p class="card-text">Blackmagic Pocket Cinema <br> Camera 6k
+          </p>
+          <h5 class="card-title">2535</h5>
+          <a href="#" class="btn btn-dark">Buy Now</a>
+        </div>
+      </div>
+      <div class="card col-lg-2 col-sm-5 mr-lg-5 ml-lg-5" style="width: 18rem;">
+        <img class="card-img-top" src="./images/Iphone 14 pro 1-1.png" alt="Card image cap">
+        <div class="card-body">
+          
+          <p class="card-text">Apple Watch Series 9 GPS  <br> 41mm Starlight Aluminium Case
+          </p>
+          <h5 class="card-title">399</h5>
+          <a href="#" class="btn btn-dark">Buy Now</a>
+        </div>
+      </div>
+      <div class="card col-lg-2 col-sm-5 ml-lg-5" style="width: 18rem;">
+        <img class="card-img-top" src="./images/Iphone 14 pro 1.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">AirPods Max Silver <br>    </p>
+          <h5 class="card-title">459</h5>
+          <a href="#" class="btn btn-dark">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11.11 sale -->
+
+  <div class="eleven">
+    <div class="d-flex align-items-center justify-content-between element">
+      <img src="./images/image 19.png" alt="" height="260">
+      <div class="">
+        <h1><span>11.11</span> Sale</h1>
+        <p>Grab your product now!!</p>
+      </div>
+      <img src="./images/MackbookPro.png" height="260" alt="">
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container d-lg-flex align-items-center justify-content-between">
+        <img src="./images/Group 2.png" alt="ShopHero logo" class="logo img-fluid">
+        <div class="social">
+          <a class="mr-3" href="#"><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i></a>
+          <a class="mr-3" href="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+          <a class="mr-3" href="#"><i class="fa-brands fa-x-twitter fa-2xl" style="color: #ffffff;"></i></a>
+          <a class="mr-3" href="#"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #ffffff;"></i></a>
+        </div>
+        <div class="services text-white">
+          <h3>Services</h3>
+          <ul class="list-group  list-unstyled">
+            <li class="">Bonus Program</li>
+            <li class="">Gift Cards</li>
+            <li class="">Credit and Payment</li>
+            <li class="">Non-Cash Account</li>
+            <li class="">Payment</li>
+          </ul>
+        </div>
+    </div>
+  </footer>
+  <!-- Bootstrap Script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
